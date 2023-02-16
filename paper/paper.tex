@@ -9,7 +9,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
-\title{Reconstruction of 3D scenes using parallax information from multiple monocular videos} % (working title)
+\title{Tracking change over time in a reconstructed 3D scene using multiple monocular videos}
 % https://github.com/cvaugh/ugrs-project
 
 \author{\IEEEauthorblockN{Chase E. Vaughan}
@@ -21,9 +21,11 @@ Valdosta State University\\
 \maketitle
 
 \begin{abstract}
-This document is a model and instructions for \LaTeX.
-This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL:
-Do Not Use Symbols, Special Characters, Footnotes, or Math in Paper Title or Abstract.
+The reconstruction of three-dimensional scenes from two-dimensional video has a multitude of uses.
+This paper presents a method of reconstructing a scene using multiple videos taken months apart.
+This method can be used both to observe change over time and to reveal details that would not be apparent from a single video.
+We temporally align the frames of videos taken along the same path and axis, then analyze the motion of anchor points between
+frames to determine structure in the form of a point cloud. 
 \end{abstract}
 
 \begin{IEEEkeywords}
